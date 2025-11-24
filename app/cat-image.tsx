@@ -20,7 +20,7 @@ type CatImageProps = {
 
     return (
         <div>
-            <button onClick={refreshImage}>わっしょい</button>
+            <button onClick={refreshImage}>ワンモア</button>
             { imageUrl && <img src={imageUrl} /> }
       </div>
     );
